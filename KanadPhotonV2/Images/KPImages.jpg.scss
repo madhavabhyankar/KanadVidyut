@@ -1,0 +1,99 @@
+﻿/*
+@import this file directly into your existing Scss files to use these mixins
+*/
+@mixin sprite-Images-Dry bath Incubator() {
+/* You may have to set 'display: block' */
+	width: 454px;
+	height: 340px;
+	background: url('KPImages.jpg') 0 0;
+}
+@mixin sprite-Images-HANS 291() {
+/* You may have to set 'display: block' */
+	width: 454px;
+	height: 340px;
+	background: url('KPImages.jpg') 0 -340px;
+}
+@mixin sprite-Images-HANS 293() {
+/* You may have to set 'display: block' */
+	width: 454px;
+	height: 340px;
+	background: url('KPImages.jpg') 0 -680px;
+}
+@mixin sprite-Images-HEMA() {
+/* You may have to set 'display: block' */
+	width: 454px;
+	height: 340px;
+	background: url('KPImages.jpg') 0 -1020px;
+}
+@mixin sprite-Images-kanad-vidut() {
+/* You may have to set 'display: block' */
+	width: 350px;
+	height: 39px;
+	background: url('KPImages.jpg') 0 -1360px;
+}
+@mixin sprite-Images-Kanad Photon 35() {
+/* You may have to set 'display: block' */
+	width: 454px;
+	height: 340px;
+	background: url('KPImages.jpg') 0 -1399px;
+}
+@mixin sprite-Images-Kanad Photon 6P() {
+/* You may have to set 'display: block' */
+	width: 454px;
+	height: 340px;
+	background: url('KPImages.jpg') 0 -1739px;
+}
+@mixin sprite-Images-Kanad Photon 7P() {
+/* You may have to set 'display: block' */
+	width: 454px;
+	height: 340px;
+	background: url('KPImages.jpg') 0 -2079px;
+}
+@mixin sprite-Images-Kanad Photon 7P_1() {
+/* You may have to set 'display: block' */
+	width: 454px;
+	height: 340px;
+	background: url('KPImages.jpg') 0 -2419px;
+}
+@mixin sprite-Images-Kanad Photon 8MPC() {
+/* You may have to set 'display: block' */
+	width: 454px;
+	height: 340px;
+	background: url('KPImages.jpg') 0 -2759px;
+}
+@mixin sprite-Images-Kanad Photon 9MPC() {
+/* You may have to set 'display: block' */
+	width: 454px;
+	height: 340px;
+	background: url('KPImages.jpg') 0 -3099px;
+}
+@mixin sprite-Images-Kanad Photon 9MPC_2() {
+/* You may have to set 'display: block' */
+	width: 454px;
+	height: 340px;
+	background: url('KPImages.jpg') 0 -3439px;
+}
+@mixin sprite-Images-KanadPhoton 393() {
+/* You may have to set 'display: block' */
+	width: 454px;
+	height: 340px;
+	background: url('KPImages.jpg') 0 -3779px;
+}
+@mixin sprite-Images-KanadVidyutMap() {
+/* You may have to set 'display: block' */
+	width: 572px;
+	height: 324px;
+	background: url('KPImages.jpg') 0 -4119px;
+}
+@mixin sprite-Images-KP 391() {
+/* You may have to set 'display: block' */
+	width: 454px;
+	height: 340px;
+	background: url('KPImages.jpg') 0 -4443px;
+}
+@mixin sprite-Images-logo() {
+/* You may have to set 'display: block' */
+	width: 193px;
+	height: 52px;
+	background: url('KPImages.jpg') 0 -4783px;
+}

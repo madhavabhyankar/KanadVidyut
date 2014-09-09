@@ -1,0 +1,116 @@
+{
+  "images": [
+    {
+      "name": "/Images/Dry bath Incubator.jpg",
+      "width": 454,
+      "height": 340,
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    {
+      "name": "/Images/HANS 291.jpg",
+      "width": 454,
+      "height": 340,
+      "offsetX": 0,
+      "offsetY": 340
+    },
+    {
+      "name": "/Images/HANS 293.jpg",
+      "width": 454,
+      "height": 340,
+      "offsetX": 0,
+      "offsetY": 680
+    },
+    {
+      "name": "/Images/HEMA.jpg",
+      "width": 454,
+      "height": 340,
+      "offsetX": 0,
+      "offsetY": 1020
+    },
+    {
+      "name": "/Images/kanad-vidut.jpg",
+      "width": 350,
+      "height": 39,
+      "offsetX": 0,
+      "offsetY": 1360
+    },
+    {
+      "name": "/Images/Kanad Photon 35.jpg",
+      "width": 454,
+      "height": 340,
+      "offsetX": 0,
+      "offsetY": 1399
+    },
+    {
+      "name": "/Images/Kanad Photon 6P.jpg",
+      "width": 454,
+      "height": 340,
+      "offsetX": 0,
+      "offsetY": 1739
+    },
+    {
+      "name": "/Images/Kanad Photon 7P.jpg",
+      "width": 454,
+      "height": 340,
+      "offsetX": 0,
+      "offsetY": 2079
+    },
+    {
+      "name": "/Images/Kanad Photon 7P_1.jpg",
+      "width": 454,
+      "height": 340,
+      "offsetX": 0,
+      "offsetY": 2419
+    },
+    {
+      "name": "/Images/Kanad Photon 8MPC.jpg",
+      "width": 454,
+      "height": 340,
+      "offsetX": 0,
+      "offsetY": 2759
+    },
+    {
+      "name": "/Images/Kanad Photon 9MPC.jpg",
+      "width": 454,
+      "height": 340,
+      "offsetX": 0,
+      "offsetY": 3099
+    },
+    {
+      "name": "/Images/Kanad Photon 9MPC_2.jpg",
+      "width": 454,
+      "height": 340,
+      "offsetX": 0,
+      "offsetY": 3439
+    },
+    {
+      "name": "/Images/KanadPhoton 393.jpg",
+      "width": 454,
+      "height": 340,
+      "offsetX": 0,
+      "offsetY": 3779
+    },
+    {
+      "name": "/Images/KanadVidyutMap.JPG",
+      "width": 572,
+      "height": 324,
+      "offsetX": 0,
+      "offsetY": 4119
+    },
+    {
+      "name": "/Images/KP 391.jpg",
+      "width": 454,
+      "height": 340,
+      "offsetX": 0,
+      "offsetY": 4443
+    },
+    {
+      "name": "/Images/logo.JPG",
+      "width": 193,
+      "height": 52,
+      "offsetX": 0,
+      "offsetY": 4783
+    }
+  ]
+}

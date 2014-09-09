@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<html lang="en" id="ng-app" data-ng-app="kanadPhotonApp" xmlns:data-ng="http://angularjs.org">
+<head>
+    <meta name="fragment" content="!" />
+    <meta charset="utf-8" />
+    <meta name="description" content="Kanad Vidyut and Kanad Photon are leading manufacturers of Biochemistry Analyzers, Colorimeters and Haemoglobinometers since 1989.">
+    <title>Kanad Vidyut</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/kanadCustom.css" rel="stylesheet" />
+    @*<link href="~/Content/style.css" rel="stylesheet" />*@
+
+
+    <!-- HTML5 shim for IE backwards compatibility -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+    <!--[if lte IE 8]>
+        <script>
+            document.createElement('data-ng-include');
+            document.createElement('data-ng-pluralize');
+            document.createElement('data-ng-view');
+            document.createElement('carousel');
+            document.createElement('slide');
+            // Optionally these for CSS
+            document.createElement('ng:include');
+            document.createElement('ng:pluralize');
+            document.createElement('ng:view');
+        </script>
+    <![endif]-->
+    @*@Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")*@
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-53276106-1', 'auto');
+        //ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="data-ng-app" data-ng-app="kanadPhotonApp">
+            <div id="data-ng-controller" data-ng-controller="headerController">
+
+                <div class="visible-lg visible-md hidden-xs">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <img src="~/Images/hans.jpg" style="height: 100px; width: 70px!important" />
+                        </div>
+                        <div class="col-sm-11">
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <div class="row">
+                                        <img src="~/Images/KanadVidyutLogo.jpg" style="height: 50px; width: 200px" alt="Kanad Vidyut" />
+                                    </div>
+                                    <div class="row" style="margin-top: 0!important; margin-bottom: 0!important">
+                                        <h1 style="margin-top: 0!important; margin-bottom: 0!important">KANAD VIDYUT</h1>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 pull-right">
+                                    <div class="row">
+                                        <div class="pull-right">
+                                            <i class="fa fa-phone"></i>&nbsp; <span>+91 - 20 - 25462809 / 25461525</span>&nbsp;
+                                            <i class="fa fa-envelope "></i>&nbsp; <span><a href="mailto:kanad.pune@gmail.com">kanad.pune@gmail.com</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="pull-right">
+                                            <a href="\Documents\Kanad Catalog.pdf" target="_blank" class="btn btn-success">
+                                                <i class="fa fa-download "></i> &nbsp; Download
+                                                <br />
+                                                Catalog
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h5 class="text-left col-sm-8" style="font-style: italic">Manufacturers of Biochemistry Analyzers, Colorimeters and Haemoglobinometers since 1989 </h5>
+                        <div class="text-left col-sm-4" style="font-style: italic">
+                            <div class="pull-right">
+                                <div class="g-plusone" data-size="medium" data-href="http://kanadvidyut.in"></div>
+                                <div class="fb-like" data-href="http://kanadvidyut.in/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-text="Kanad Vidyut for Biochemistry Analyzers" data-hashtags="KanadVidyut">Tweet</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                
+
+
+                <nav class="navbar navbar-default" data-ng-controller="navController" role="navigation">
+
+                    <div class="navbar-brand visible-xs hidden-lg hidden-md hidden-print" style="cursor: auto">KANAD VIDYUT</div>
+                    <div class="navbar-header navbar-right">
+                        <button type="button" class="navbar-toggle" ng-click="isCollapsed = !isCollapsed">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                    </div>
+                    <div collapse="isCollapsed" class="navbar-collapse">
+                        <ul class="nav navbar-nav pull-right">
+                            <li id="data-ng-class" data-toggle="collapse" data-target=".navbar-collapse">
+                                <a data-ng-href="#!/">Home</a>
+                            </li>
+                            <li class="dropdown" @*data-ng-class="(activeMenu=='products') ? 'active':''"*@>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li data-ng-repeat="catagory in catagories | orderBy:'name'">
+                                        <a data-ng-href="#!/products/{{catagory.name}}" @*data-ng-click="setActive('products')"*@>{{catagory.name}}</a>
+
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li data-toggle="collapse" data-target=".navbar-collapse"><a data-ng-href="#!/Downloads">Downloads</a></li>
+                            <li data-toggle="collapse" data-target=".navbar-collapse"><a href="#!/ContactUs">Contact Us</a></li>
+                            <li data-toggle="collapse" data-target=".navbar-collapse"><a href="#!/AboutUs">About Us</a></li>
+
+                        </ul>
+                    </div>
+
+
+                </nav>
+
+                <div data-ui-view></div>
+            </div>
+        </div>
+        <div class=container>
+            @RenderBody()
+        </div>
+
+    </div>
+    <div id="footer">
+        <div class="container">
+            <hr />
+            <p class="text-muted text-center">Designed and Developed <a href="mailto:mabhyankar@outlook.com">Madhav Abhyankar, AbhyankarSystems LLC.</a>, Chicago, IL, USA</p>
+        </div>
+    </div>
+    <script src="~/KPScripts/AngularAndEssentials.min.js"></script>
+    <script src="~/KPScripts/KPApplication.min.js"></script>
+    @*<script src="~/Scripts/modernizr-2.7.2.js"></script>
+        <script src="~/Scripts/jquery-2.1.1.min.js"></script>*@
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/es5-shim/3.4.0/es5-sham.js"></script>
+    @*<script src="~/Scripts/angular.min.js"></script>
+        <script src="~/Scripts/angular-ui-router.min.js"></script>
+        <script src="~/Scripts/es5-shim.js"></script>
+        <script src="~/Scripts/angular-ui/ui-bootstrap.min.js"></script>
+        <script src="~/Scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+        <script src="~/Scripts/angular-ui/ui-utils-ieshiv.min.js"></script>
+        <script src="~/Scripts/underscore-min.js"></script>
+        <script src="~/Scripts/angulartics.min.js"></script>
+        <script src="~/Scripts/angulartics-ga.min.js"></script>*@
+    @*<!--Application-->
+        <script src="~/KPScripts/kanadPhotonApp.js"></script>
+        <script src="~/KPScripts/kanadPhotonHeader.js"></script>
+
+        <!--Service -->
+        <script src="~/KPScripts/productService.js"></script>
+        <script src="~/KPScripts/emailService.js"></script>
+
+        <!--Controllers-->
+        <script src="~/KPScripts/Controllers/homeController.js"></script>
+        <script src="~/KPScripts/Controllers/contactUsController.js"></script>
+        <script src="~/KPScripts/Controllers/productByCatagory.js"></script>
+        <script src="~/KPScripts/Controllers/allProducts.js"></script>
+        <script src="~/KPScripts/Controllers/aboutUsController.js"></script>
+        <script src="~/KPScripts/Controllers/downloadsController.js"></script>*@
+
+
+
+    <script type="text/javascript">
+
+        $(function () {
+            $('.navbar-nav li').click(function () {
+                $(this).addClass('active').siblings().removeClass('active');
+            });
+        });
+
+        (function () {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=533510363416694&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');
+    </script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

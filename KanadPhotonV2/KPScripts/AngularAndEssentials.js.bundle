@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bundle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://vswebessentials.com/schemas/v1/bundle.xsd">
+  <settings>
+    <!--Determines if the bundle file should be automatically optimized after creation/update.-->
+    <minify>true</minify>
+    <!--Determin whether to generate/re-generate this bundle on building the solution.-->
+    <runOnBuild>false</runOnBuild>
+    <!--Specifies a custom subfolder to save files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectory />
+  </settings>
+  <!--The order of the <file> elements determines the order of the files in the bundle.-->
+  <files>
+    <file>/Scripts/modernizr-2.7.2.js</file>
+    <file>/Scripts/jquery-2.1.1.min.js</file>
+    <file>/Scripts/underscore-min.js</file>
+    <file>/Scripts/angular.min.js</file>
+    <file>/Scripts/es5-shim.min.js</file>
+    <file>/Scripts/angular-ui-router.js</file>
+    <file>/Scripts/angular-ui/ui-bootstrap.min.js</file>
+    <file>/Scripts/angular-ui/ui-bootstrap-tpls.min.js</file>
+    <file>/Scripts/angular-ui/ui-utils-ieshiv.min.js</file>
+    <file>/Scripts/angulartics.min.js</file>
+    <file>/Scripts/angulartics-ga.min.js</file>
+  </files>
+</bundle>

@@ -1,0 +1,10 @@
+﻿<configuration>
+	<configSections>
+		<section name="prerender" type="Prerender.io.PrerenderConfigSection, Prerender.io, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+	</configSections>
+	<prerender
+		prerenderServiceUrl="http://localhost:3000"
+		crawlerUserAgents="me,you,she,he"
+		token="[YOUR_TOKEN_HERE]">
+	</prerender>
+</configuration>
